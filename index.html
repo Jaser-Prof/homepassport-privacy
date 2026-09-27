@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacyverklaring — Home Passport</title>
+<style>
+  :root {
+    --inkt: #16202b;
+    --inkt-zacht: #4a5a6a;
+    --lijn: #dfe6ec;
+    --achtergrond: #fbfcfd;
+    --paneel: #f2f6f9;
+    --accent: #1f5fa8;
+    --accent-zacht: #e8f0f9;
+  }
+
+  * { box-sizing: border-box; }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    margin: 0;
+    background: var(--achtergrond);
+    color: var(--inkt);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  header {
+    border-bottom: 1px solid var(--lijn);
+    padding: 28px 24px;
+  }
+
+  .kop-inhoud {
+    max-width: 680px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .merkicoon {
+    width: 34px;
+    height: 34px;
+    border-radius: 9px;
+    background: var(--accent);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+
+  .merkicoon svg { width: 18px; height: 18px; }
+
+  .merknaam {
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: -0.01em;
+  }
+
+  main {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 56px 24px 96px;
+  }
+
+  h1 {
+    font-size: 30px;
+    line-height: 1.25;
+    letter-spacing: -0.015em;
+    margin: 0 0 10px;
+  }
+
+  .bijgewerkt {
+    color: var(--inkt-zacht);
+    font-size: 14px;
+    margin: 0 0 40px;
+  }
+
+  .inleiding {
+    font-size: 17px;
+    color: var(--inkt-zacht);
+    margin: 0 0 44px;
+    max-width: 58ch;
+  }
+
+  section {
+    margin-bottom: 40px;
+    scroll-margin-top: 24px;
+  }
+
+  h2 {
+    font-size: 19px;
+    letter-spacing: -0.01em;
+    margin: 0 0 12px;
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+  }
+
+  h2 .nr {
+    color: var(--accent);
+    font-variant-numeric: tabular-nums;
+    font-weight: 600;
+    font-size: 15px;
+  }
+
+  section p, section li {
+    max-width: 62ch;
+    font-size: 15.5px;
+  }
+
+  section ul {
+    padding-left: 20px;
+    margin: 12px 0;
+  }
+
+  section li { margin-bottom: 6px; }
+
+  a {
+    color: var(--accent);
+    text-decoration: underline;
+    text-decoration-color: color-mix(in srgb, var(--accent) 35%, transparent);
+    text-underline-offset: 2px;
+  }
+
+  a:hover { text-decoration-color: var(--accent); }
+
+  .invulvak {
+    background: var(--accent-zacht);
+    border: 1px solid color-mix(in srgb, var(--accent) 25%, transparent);
+    border-radius: 8px;
+    padding: 16px 18px;
+    margin-top: 28px;
+    font-size: 14.5px;
+    color: var(--inkt-zacht);
+  }
+
+  .invulvak strong { color: var(--inkt); }
+
+  .contactkaart {
+    background: var(--paneel);
+    border-radius: 12px;
+    padding: 22px 24px;
+    margin-top: 8px;
+  }
+
+  .contactkaart p { margin: 4px 0; }
+
+  .contactkaart .label {
+    color: var(--inkt-zacht);
+    font-size: 13.5px;
+  }
+
+  footer {
+    border-top: 1px solid var(--lijn);
+    padding: 28px 24px 40px;
+  }
+
+  footer .kop-inhoud {
+    color: var(--inkt-zacht);
+    font-size: 13.5px;
+    justify-content: space-between;
+  }
+
+  @media (max-width: 480px) {
+    h1 { font-size: 25px; }
+    main { padding: 40px 20px 72px; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="kop-inhoud">
+    <div class="merkicoon">
+      <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M12 2L4 5v6c0 5 3.4 8.7 8 10 4.6-1.3 8-5 8-10V5l-8-3z" fill="white"/>
+        <path d="M9 12l2 2 4-4" stroke="#1f5fa8" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </div>
+    <span class="merknaam">Home Passport</span>
+  </div>
+</header>
+
+<main>
+  <h1>Privacyverklaring</h1>
+  <p class="bijgewerkt">Laatst bijgewerkt: <strong>27 september 2026</strong></p>
+
+  <p class="inleiding">
+    Deze verklaring legt uit welke gegevens Home Passport verwerkt en waarom.
+    Kort samengevat: de app is gebouwd om zo min mogelijk over jou te weten te
+    komen — al je toestellen, foto's en garantie-informatie blijven op je
+    eigen telefoon.
+  </p>
+
+  <section id="verantwoordelijke">
+    <h2><span class="nr">01</span> Wie is verantwoordelijk</h2>
+    <div class="contactkaart">
+      <p><span class="label">Naam / bedrijf</span></p>
+      <p>Jurgen Noels</p>
+      <p style="margin-top:12px"><span class="label">Contact</span></p>
+      <p><a href="mailto:Jurgen@nomatech.be">Jurgen@nomatech.be</a></p>
+    </div>
+  </section>
+
+  <section id="gegevens">
+    <h2><span class="nr">02</span> Welke gegevens verzamelt de app</h2>
+    <p>Home Passport verwerkt uitsluitend gegevens die je zelf actief ingeeft:</p>
+    <ul>
+      <li>Toestelgegevens: naam, merk, categorie, barcode of serienummer, aankoopdatum, garantie-informatie, klantnummer, koelmiddeltype en druk vulling waar van toepassing</li>
+      <li>Foto's die je zelf neemt van etiketten en toestellen</li>
+      <li>Onderhoudsgegevens: datum en herhalingsinterval, indien je dit instelt</li>
+    </ul>
+    <p>
+      Al deze gegevens worden <strong>uitsluitend lokaal op je eigen toestel</strong>
+      bewaard. Wij hebben er geen toegang toe, en niets wordt naar een server
+      verstuurd.
+    </p>
+  </section>
+
+  <section id="camera">
+    <h2><span class="nr">03</span> Cameratoegang</h2>
+    <p>
+      De app vraagt cameratoegang om barcodes en QR-codes te scannen, en om
+      foto's van etiketten en toestellen te nemen als garantiebewijs. Dit
+      gebeurt enkel op het moment dat je zelf scant of een foto neemt.
+    </p>
+  </section>
+
+  <section id="agenda">
+    <h2><span class="nr">04</span> Agenda-toegang</h2>
+    <p>
+      Als je een onderhoudsafspraak toevoegt aan je systeemkalender, vraagt de
+      app toegang tot je agenda. Dit gebeurt enkel wanneer je zelf op
+      "Voeg toe aan Agenda" tikt, en enkel om die ene afspraak aan te maken.
+    </p>
+  </section>
+
+  <section id="meldingen">
+    <h2><span class="nr">05</span> Meldingen</h2>
+    <p>
+      Home Passport plant lokale meldingen om je te verwittigen wanneer een
+      garantie binnenkort verloopt of onderhoud nodig is. Deze meldingen
+      worden volledig op je eigen toestel gepland en verwerkt — er wordt
+      niets hierover naar ons of derde partijen verzonden.
+    </p>
+  </section>
+
+  <section id="aankopen">
+    <h2><span class="nr">06</span> Aankopen</h2>
+    <p>
+      Extra toestel-slots of een onbeperkt abonnement koop je via het
+      App Store-betaalsysteem van Apple. Wij ontvangen geen betaal- of
+      kaartgegevens; hierop is
+      <a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener">Apple's privacybeleid</a>
+      van toepassing.
+    </p>
+  </section>
+
+  <section id="delen">
+    <h2><span class="nr">07</span> Delen met derden</h2>
+    <p>
+      Wij verkopen, verhuren of delen jouw gegevens niet met derden. Omdat
+      alles lokaal op je toestel blijft, hebben wij hier ook technisch geen
+      mogelijkheid toe.
+    </p>
+  </section>
+
+  <section id="bewaartermijn">
+    <h2><span class="nr">08</span> Bewaartermijn en verwijderen</h2>
+    <p>
+      Je gegevens blijven bewaard zolang je de app op je toestel houdt. Je
+      kan op elk moment individuele toestellen verwijderen binnen de app, of
+      alle gegevens in één keer wissen door de app te de-installeren.
+    </p>
+  </section>
+
+  <section id="backup">
+    <h2><span class="nr">09</span> iCloud-back-up</h2>
+    <p>
+      Als je iCloud-back-up gebruikt, kunnen app-gegevens deel uitmaken van
+      je persoonlijke iCloud-back-up. Dit wordt beheerd volgens Apple's eigen
+      privacy- en beveiligingsbeleid, niet door ons.
+    </p>
+  </section>
+
+  <section id="rechten">
+    <h2><span class="nr">10</span> Jouw rechten</h2>
+    <p>
+      Omdat al je gegevens lokaal op jouw toestel staan, beheer je ze
+      volledig zelf: je kan alles rechtstreeks in de app inzien, aanpassen
+      via "Bewerken", of verwijderen. Voor vragen over je rechten kan je ons
+      contacteren via het e-mailadres hierboven.
+    </p>
+  </section>
+
+  <section id="wijzigingen">
+    <h2><span class="nr">11</span> Wijzigingen</h2>
+    <p>
+      We kunnen deze verklaring van tijd tot tijd bijwerken, bijvoorbeeld bij
+      nieuwe functies in de app. De datum bovenaan geeft aan wanneer ze voor
+      het laatst is aangepast.
+    </p>
+    <div class="invulvak">
+      <strong>Let op:</strong> deze verklaring is opgesteld voor gebruik in de
+      Apple App Store en dekt Home Passport's huidige functies. Laat ze
+      nalezen door een jurist gespecialiseerd in privacyrecht als je later
+      gegevens extern zou verwerken.
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="kop-inhoud">
+    <span>Home Passport</span>
+    <span>Privacyverklaring</span>
+  </div>
+</footer>
+
+</body>
+</html>
